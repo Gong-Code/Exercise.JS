@@ -67,6 +67,11 @@ for(let i = 0; i < names.length; i++){
 //     console.log(name)
 // });
 
+
+// ---------------------
+// Övning 3
+// --------------------- 
+
 // const greetings = function(name) {
 //     console.log(`Hello ${name}`)
 // }
@@ -93,9 +98,6 @@ for(let i = 0; i < names.length; i++){
 
 // numberToColor(19);
 
-// ---------------------
-// Övning 3
-// --------------------- 
 
 //Funktion 1:
 
