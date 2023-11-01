@@ -1,4 +1,6 @@
-//Övning 1 
+// ---------------------
+// Övning 1
+// --------------------- 
 
 const person = {
     firstName : "Gong",
@@ -28,7 +30,9 @@ let random = Math.floor(Math.random() * 10) + 1;
 
 // console.log(random);
 
-//Övning 2
+// ---------------------
+// Övning 2
+// --------------------- 
 
 const names = ["Britt-Marie", "Adam", "Sofia", "Jimmy", "Cecilia", "Gong"];
 
@@ -63,8 +67,6 @@ for(let i = 0; i < names.length; i++){
 //     console.log(name)
 // });
 
-//Övning 3
-
 // const greetings = function(name) {
 //     console.log(`Hello ${name}`)
 // }
@@ -89,16 +91,17 @@ for(let i = 0; i < names.length; i++){
 //     }
 // }
 
-
 // numberToColor(19);
 
+// ---------------------
+// Övning 3
+// --------------------- 
 
 //Funktion 1:
 
 // const hello = () => console.log('Hello world');
 
 // hello();
-
 
 // Funktion 2:
 
