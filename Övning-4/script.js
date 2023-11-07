@@ -121,8 +121,12 @@ quoteBtn.addEventListener('click', getRandomQuote);
 
 function getRandomQuote() {
   let randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-  quoteContainer.innerHTML = `
-  <h6>Id: ${randomQuote.id}</<h6> 
-  <p>${randomQuote.content}</p> 
-  <h5>Author: ${randomQuote.author}</h5>`;
+  if(quoteContainer !== null){
+    quoteContainer.innerHTML = `
+    <h6>Id: ${randomQuote.id}</<h6> 
+    <p>${randomQuote.content}</p> 
+    <h5>Author: ${randomQuote.author}</h5>`;
+  } else {
+    console.log('quoteContainer is null')
+  }
 }
