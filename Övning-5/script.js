@@ -12,6 +12,11 @@ closeModalBtn.addEventListener("click", () => {
     closeModal(modal); 
 });
 
+overlay.addEventListener("click", () => {
+    const modal = document.querySelector(".modal");
+    closeModal(modal); 
+});
+
 
 function openModal(modal) {
     if (modal == null) return;
