@@ -1,19 +1,17 @@
 const openModalBtn = document.querySelector("#open-modal-btn");
 const closeModalBtn = document.querySelector("#close-btn");
 const overlay = document.querySelector("#overlay");
+const modal = document.querySelector(".modal");
 
 openModalBtn.addEventListener("click", () => {
-    const modal = document.querySelector(".modal");
     openModal(modal);
 });
 
 closeModalBtn.addEventListener("click", () => {
-    const modal = document.querySelector(".modal");
     closeModal(modal); 
 });
 
 overlay.addEventListener("click", () => {
-    const modal = document.querySelector(".modal");
     closeModal(modal); 
 });
 
